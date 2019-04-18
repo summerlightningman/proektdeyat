@@ -1,0 +1,91 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Century Gothic", cursive;
+}
+
+h1 {
+    text-align: center;
+
+    margin-left: 160px;
+}
+
+h2 {
+
+    color: tomato;
+}
+
+p {
+    font-size: 2rem;
+    font-family: Roboto, sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+sub {
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 0.8rem;
+    /*text-shadow: 0 0 5px black;*/
+}
+
+.today {
+    background: rgba(255, 40, 40, 0.2);
+    width: calc(100% - 30px);
+    height: 150px;
+    padding: 30px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
+}
+
+table {
+    margin-top: 40px;
+    width: 100%;
+}
+
+th {
+    border-left: 1px solid tomato;
+}
+
+span {
+    color: tomato;
+    font-family: Roboto, sans-serif;
+}
+
+td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.cab {
+    font-size: 1.5rem;
+    color: tomato;
+    border-left: 1px solid rgba(255, 0, 0, 0.3);
+    position: relative;
+    right: 0;
+}
+
+.type {
+    font-size: 1.5rem;
+    color: tomato;
+    border-right: 1px solid rgba(255, 0, 0, 0.3);
+    width: 20%;
+}
+
+.caption {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.teacher {
+    text-align: right;
+    color: darkgreen;
+}
